@@ -1,1 +1,43 @@
+#JAVA Questions
+
+# 1) Check the given number is Even or Odd, if the number is even print"Let's_Go" else print "Try_Next_Time".
+
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        System.out.print("Enter The Number To Check: ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        if (num % 2 == 0){
+            System.out.println("Let's_Go");
+        }
+        else{
+            System.out.println("Try_Next_Time");
+        }
+    }
+}
+
+#2) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
