@@ -17,7 +17,22 @@ class Main{
     }
 }
 
-#2) 
+
+# 2) Give the number from user and print the Last Digit of the Given Number. 
+
+import java.util.*;
+class Main{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter The Number: ");
+        int num = sc.nextInt();
+        int upd = num%10;
+        System.out.println("The Las Number is " +upd);
+    }
+}
+
+
+# 3) 
 
 
 
